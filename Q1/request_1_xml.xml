@@ -1,0 +1,10 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soap:Header/>
+   <soap:Body>
+      <spel:CheckTextsRequest lang="ru" options="4" format="plain">
+         <spel:text>Я никогда не была твоей, мы вместе были в кругу друзей, ты провожал меня до дверей, я говорила: "Привет, Андрей!" 
+         И вот однажды я поняла, что без тебя словно не жила, когда ты даришь мне роз букет, я говорю: "Привет!"
+         Привет Андрей!</spel:text>
+      </spel:CheckTextsRequest>
+   </soap:Body>
+</soap:Envelope>

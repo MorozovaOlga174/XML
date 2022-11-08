@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <CheckTextsResponse xmlns="http://speller.yandex.net/services/spellservice">
+         <ArrayOfSpellResult>
+            <SpellResult>
+               <error code="1" pos="209" row="1" col="95" len="6">
+                  <word>говорб</word>
+                  <s>говорю</s>
+               </error>
+            </SpellResult>
+         </ArrayOfSpellResult>
+      </CheckTextsResponse>
+   </soap:Body>
+</soap:Envelope>

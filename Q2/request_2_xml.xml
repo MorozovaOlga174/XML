@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spel:CheckTextsRequest lang="ru" options="6" format="plain">
+         <spel:text>Мечты сбваются не только в Газпроме</spel:text>
+      </spel:CheckTextsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
